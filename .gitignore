@@ -1,0 +1,8 @@
+*.swp
+*.swo
+*.bak
+*.tmp
+*.shada*
+.DS_Store
+Thumbs.db
+*.log

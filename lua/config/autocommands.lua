@@ -1,0 +1,1 @@
+-- This is where I'd configure editor-wide (non-plugin) autocommands... If I had any!
