@@ -34,7 +34,7 @@ Bob = your uncle
 
 ## File navigation
 
-I used to use NERDTree with vim, it perodicaly has issues with Neovim. Now I use neo-tree. 
+I used to use NERDTree with vim. It perodicaly has issues with Neovim. Now I use neo-tree. 
 I have a custom config to toggle it and navigate it. 
 
 I didn't like many of its default keybindings so I corrected them and augmented some behaviors:
@@ -47,19 +47,17 @@ I didn't like many of its default keybindings so I corrected them and augmented 
 - Space (`<space`) toggles directories open and closed
 - `/` is normal vim search instead of fuzzy find
 - `ctrl-f` is fuzzy find, arrows nav in fuzzy find (default)
-- `<` and `>` defaults to navigate between sources (git, filesystem, open buffers) are left as is
+- `<` and `>` defaults retained to navigate between sources (git, filesystem, open buffers)
 
-**Tabs, files, & buffers**
+**Note on tabs, files, & buffers** 
 Native vim/neovim tabs aren't 1 file buffer per tab. They are windows / workspaces potentially with splits.
 In the spirit of Neovim nativism just use the native tabs. 
 They are more powerful than the file per tab mentality of modern editors.
 
-## Editorconfig - Code formatting
+## Code formatting
 
-Editorconfig is the simplest layer and it is build into Neovim. 
-It handles indentation style (tabs/spaces), indent size, line endings, final newline.
-
-Think: 
+Editorconfig is the simplest layer and it is built into Neovim. 
+It handles indentation style (tabs/spaces), indent size, line endings, final newline. Think: 
 > "How should whitespace behave in this project?"
 
 This is used when I don't want something fancy like prettier.
@@ -102,18 +100,6 @@ Skippable if specific LSP already has good diagnostics.
 
 Using `mini.nvim` for this for now.
 
-I'm really only using the statusline feature of this but I like the project. I might ditch it later.
-
-I'm not a fan of auto surrounding etc. I don't need my editor closing parens and tags for me. It's often annoying.
-
-- `mini.statusline` - nice little status line
-- future niceties
-
 ## Other interesting stuff for later maybe
 - https://github.com/folke/snacks.nvim
-- snacks.bigfile handle large files by disabling LSP etc
-- snacks.dashboard dashboard / launcher / latest projects etc
-- snacks.gh github gui
-- snacks.image view inages in supporting terminals
-- snacks.indent / mini.indentscope visualization for indents |
 
