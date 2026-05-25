@@ -11,7 +11,7 @@ vim.g.maplocalleader = "\\"   -- local leader key is \
 -- Display 
 -- =============================================================================
 
--- These don't super apply because we use a statusline plugin but I like backup defaults
+-- This don't super apply because we use a statusline plugin but I like backup defaults
 opts.showmode = true          -- Always show current editing mode in statusline
 
 -- Columns, colors, wrapping
@@ -64,6 +64,7 @@ opts.clipboard = "unnamedplus" -- Use system clipboard
 -- =============================================================================
 -- Behaviors, timings
 -- =============================================================================
+
 opts.mouse = "a"              -- Enable mouse for all modes, if you're a mouse person
 opts.lazyredraw = true        -- prevent screen redraw during macro execution, faster macros
 opts.updatetime = 250         -- time for mapped sequence, swap, inactivity events, faster diagnostics/completion (lsp)
@@ -83,6 +84,7 @@ opts.completeopt = {          -- Completion menu behaviors. Not sure how I feel 
 -- =============================================================================
 -- Code Folding
 -- =============================================================================
+
 -- I don't really care about code folding. If I did I'd put that stuff here.
 --opts.foldlevelstart = 99    -- Start with folds open
 --opts.foldmethod = "expr"    -- Use expression-based folding
@@ -91,7 +93,7 @@ opts.completeopt = {          -- Completion menu behaviors. Not sure how I feel 
 -- =============================================================================
 -- Splits
 -- =============================================================================
+
 opts.splitright = true        -- Veritcal splits open to the right
 opts.splitbelow = true        -- Horizontal splits open below
-
 
