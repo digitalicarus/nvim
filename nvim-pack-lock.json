@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "codecompanion.nvim": {
+      "rev": "b1cbe52ecd71e7b0ed43ac1dc6eb3aab4099db00",
+      "src": "https://github.com/olimorris/codecompanion.nvim"
+    },
     "conform.nvim": {
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
       "src": "https://github.com/stevearc/conform.nvim"
@@ -12,9 +16,9 @@
       "rev": "fdc0758187da61612f9d3365f7a1ac45de47471c",
       "src": "https://github.com/huggingface/llm.nvim"
     },
-    "mini.statusline": {
-      "rev": "7091f554d7d26b5d55f4c937634da53ba277a44a",
-      "src": "https://github.com/nvim-mini/mini.statusline"
+    "lualine.nvim": {
+      "rev": "131a558e13f9f28b15cd235557150ccb23f89286",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
     "neo-tree.nvim": {
       "rev": "722a182f6608172bdc3fd295b6180e583316ef1d",

@@ -98,7 +98,7 @@ Skippable if specific LSP already has good diagnostics.
 
 ### Statusline 
 
-Using `mini.nvim` for this for now.
+Using `lualine.nvim` for this. Integrates well with the kanagawa colorscheme. All lua. Good balance features and speed.
 
 ## Other interesting stuff for later maybe
 - https://github.com/folke/snacks.nvim
