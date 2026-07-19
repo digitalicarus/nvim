@@ -24,6 +24,14 @@ function Module.configure ()
     -- Markdown
     vim.lsp.config("markdown_oxide", {})
     vim.lsp.enable("markdown_oxide")
+
+    -- Rust
+    vim.lsp.config("rust_analyzer", {})
+    vim.lsp.enable("rust_analyzer")
+
+    -- Go
+    vim.lsp.config("gopls", {})
+    vim.lsp.enable("gopls")
     
 end
 

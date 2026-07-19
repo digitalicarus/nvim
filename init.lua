@@ -29,4 +29,5 @@ require("config.plugins.lualine").configure()
 require("config.plugins.neotree").configure()
 require("config.plugins.lspconfig").configure()
 require("config.plugins.conform").configure() 
+require("config.plugins.codecompanion").configure() 
 

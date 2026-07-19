@@ -69,7 +69,7 @@ function Module.configure ()
             filtered_items = {
                 --== not using these but want to remember them
                 -- visible = true, -- show all hidden files, overrides detailed settings below
-                -- hide_gitignored = true,
+                -- hide_gitignored = false,
                 hide_dotfiles = false,
                 hide_by_name = { ".git", ".DS_Store" },
             },
