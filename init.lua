@@ -21,6 +21,8 @@ vim.pack.add({
     "https://github.com/MunifTanjim/nui.nvim",
     --++ optional neotree dep, but recommended
     "https://github.com/nvim-tree/nvim-web-devicons",
+
+    "https://github.com/brianhuster/live-preview.nvim",
 });
 
 -- Configure plugins 
@@ -30,4 +32,5 @@ require("config.plugins.neotree").configure()
 require("config.plugins.lspconfig").configure()
 require("config.plugins.conform").configure() 
 require("config.plugins.codecompanion").configure() 
+require("config.plugins.live-preview").configure() 
 

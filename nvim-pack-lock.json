@@ -12,6 +12,10 @@
       "rev": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
       "src": "https://github.com/rebelot/kanagawa.nvim"
     },
+    "live-preview.nvim": {
+      "rev": "a30e54e51e7480d7060c8c8185f2a963ad3518b4",
+      "src": "https://github.com/brianhuster/live-preview.nvim"
+    },
     "llm.nvim": {
       "rev": "fdc0758187da61612f9d3365f7a1ac45de47471c",
       "src": "https://github.com/huggingface/llm.nvim"
